@@ -66,7 +66,7 @@ namespace rw
 		virtual void setWeather(int weatherID) = 0;
 		virtual bool setGravity(float gravity) = 0;
 		virtual int addClass(int model, Vector3, float rotation) = 0;
-		virtual int gtPlayerPoolSize() = 0;
+		virtual int getPlayerPoolSize() = 0;
 		virtual int getVehiclePoolSize() = 0;
 		virtual int getActorPoolSize() = 0;
 
